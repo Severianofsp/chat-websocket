@@ -1,10 +1,10 @@
 import app from "./app";
 import { WebSocketServer } from 'ws'
 
-const app_port:number = parseInt(process.env.PORT || '3000') ;
+const APP_PORT:number = parseInt(process.env.PORT || '3000') ;
 
-const server = app.listen(app_port,()=>{
-    console.log(`Server Running port: ${app_port} `)
+const server = app.listen(APP_PORT,()=>{
+    console.log(`Server Running port: ${APP_PORT} `)
 })
 
 const wss = new WebSocketServer({ server})
