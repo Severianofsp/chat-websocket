@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://localhost:3000')
+const socket = new WebSocket('wss://chat-websocket-dljl.onrender.com')
 const messages = document.getElementById('messages')
 const form = document.getElementById('form')
 const input = document.getElementById('input')
