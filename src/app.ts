@@ -2,7 +2,6 @@ import express, { Application } from 'express'
 import dotenv from 'dotenv'
 import path from 'path'
 dotenv.config()
-import './services/websocketService'
 
 class App {
   app: Application
